@@ -1,4 +1,4 @@
-while True:
+while True:  # Initialization: start the calculator menu loop
 
     print("\n--- Calculator Menu ---")
     print("1. Add")
@@ -9,9 +9,10 @@ while True:
 
     choice = input("Enter your choice: ")
 
+    # Condition: keep showing the menu until the user chooses Exit
     if choice == "5":
         print("Calculator closed.")
-        break
+        break  # Termination: exit the loop when choice is 5
 
     if choice in ["1", "2", "3", "4"]:
 
