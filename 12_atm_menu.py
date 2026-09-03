@@ -1,6 +1,6 @@
-balance = 10000
+balance = 10000  # Initialization: set the starting account balance
 
-while True:
+while True:  # Condition: keep the ATM running until the user chooses Exit
 
     print("\n--- ATM MENU ---")
     print("1. Check Balance")
@@ -39,7 +39,7 @@ while True:
 
     elif choice == "4":
         print("Thank you for using the ATM.")
-        break
+        break  # Termination: exit the ATM when the user chooses 4
 
     else:
         print("Invalid choice. Please try again.")
