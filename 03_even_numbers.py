@@ -1,6 +1,7 @@
+# Initialization: start number at 1
 number = 1
 
-# Initialization: start from 1
+# Condition: continue while number is less than or equal to 100
 while number <= 100:
 
     if number % 2 == 0:
